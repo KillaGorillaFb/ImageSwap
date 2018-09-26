@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<!--
+Developer:  Frankie Barrios
+Date:       9/25/2018
+Purpose:    ImageSwapping Assignment
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image Swapping</title>
+<link rel="stylesheet" href="styles.css">
+<script src="main.js"></script>
+</head>
+
+<body>
+  <!-- Main Image -->
+  <img id="right" src="1.jpg" />
+
+  <!--Accessing Array-->
+  <div id="left">
+    <ul id="menu">
+      <script>
+        for (i = 0; i < aryImages.length; i++) {
+          document.write('<li><img src="' + aryImages[i] + '" onclick="onClick(this);" /></li>');
+        }
+      </script> 
+    </ul>
+  </div>
+
+</body>
+
+</html>
