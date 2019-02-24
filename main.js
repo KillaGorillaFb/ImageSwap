@@ -5,7 +5,7 @@ Purpose:   ImageSwapping Assignment
 */
 
 //Array of Images
-var aryImages = ["1.jpg", "2.jpg", "3.jpg"];
+var aryImages = ["1.jpg", "2.jpg", "3.jpg", "4.jpg"];
 
 //Image Swap Function
 function onClick(element) {
